@@ -47,7 +47,7 @@
                         <div class="card" style="width:60rem">
                             <h3>Caroline Miller</h3>
 
-                            <div class=" card-body">
+                            <div class="card-body">
                                 <p id="contact">caroline.miller@ymail.com / 970-691-5493</p>
                                 <p>Born in Colorado, I've always been passionate about creative pursuits. In 2017, I
                                     graduated with a
@@ -58,6 +58,7 @@
                                     now pursuing a
                                     career in web development through the Coding Boot Camp at UT Austin.</p>
 
+                                <!-- insert sidebar here -->
                                 <p>Two notable projects I've completed so far:</p>
                                 <p>A secure password generator: (Deployed -
                                     https://caroline-e-miller.github.io/radical-generator/ Repository:
@@ -66,6 +67,7 @@
                                     (Deployed:
                                     https://christinakerr.github.io/COVIDRoadTrip/ Repository:
                                     https://github.com/christinakerr/COVIDRoadTrip.git)</p>
+                                <!-- end sidebar -->
                             </div>
                         </div>
                         <button class="btn btn-secondary" id="button" href="https://github.com/caroline-e-miller"
@@ -81,11 +83,32 @@
             </div>
 
             <style>
+                body {
+                    background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?size=626&ext=jpg");
+                    background-color: #cccccc
+                }
+
                 .container {
                     margin-top: 30px;
                     margin-bottom: 30px;
                     margin-right: 100px;
                     margin-left: 100px
+                }
+
+
+                .row {
+                    margin-top: 20px;
+                }
+
+                .card {
+                    background-color: rgb(173, 173, 173);
+                }
+
+                h3 {
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    color: white;
+                    margin-left: 40px;
+                    margin-top: 40px
                 }
 
                 .card-body {
@@ -97,10 +120,14 @@
 
                 #contact {
                     text-align: right;
+                    font-style: italic
                 }
 
-                p {
-                    font-family: Georgia, 'Times New Roman', Times, serif
+                p,
+                a,
+                #button {
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    color: white
                 }
 
                 .mr-3 {
@@ -110,34 +137,16 @@
                     margin-bottom: 20px;
                 }
 
-                .row {
-                    margin-top: 20px;
-                }
-
-                h3 {
-                    font-family: Georgia, 'Times New Roman', Times, serif;
-                    margin-left: 40px;
-                    margin-top: 40px
-                }
-
-                body {
-                    background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?size=626&ext=jpg");
-                    background-color: #cccccc
-                }
-
                 #button {
                     margin-top: 30px;
+                    background-color: rgb(68, 68, 68);
                     float: right;
                     margin: 10px
                 }
 
                 #button:hover {
-                    background-color: rgb(20, 145, 20);
+                    background-color: black;
                     color: white
-                }
-
-                #contact {
-                    font-style: italic;
                 }
             </style>
 
